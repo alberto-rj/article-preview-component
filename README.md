@@ -1,6 +1,6 @@
 # Frontend Mentor - Article preview component solution
 
-Language:  [🇺🇸 English](README.md)  |  [🇧🇷 Portuguese](README-PT.md)
+Language: [🇺🇸 English](README.md) | [🇧🇷 Portuguese](README-PT.md)
 
 ![Screenshot](./screenshot/screenshot-desktop.png)
 
