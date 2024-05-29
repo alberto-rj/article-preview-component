@@ -1,6 +1,8 @@
 # Frontend Mentor - Article preview component solution
 
-Language: [🇺🇸 English](README.md) | [🇧🇷 Portuguese](README-PT.md)
+<div align="center">
+  <strong>Language:</strong> <a href="README.md"> 🇺🇸 English </a> | <a href="README-PT.md"> 🇧🇷 Portuguese </a>
+</div>
 
 ![Screenshot](./screenshot/screenshot-desktop.png)
 
@@ -9,12 +11,12 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Motivations](#motivations)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Challenges faced](#challenges-faced)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -22,7 +24,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ## Overview
 
-### The challenge
+### Motivations
 
 Users should be able to:
 
@@ -31,18 +33,34 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Mobile version
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+<details open>
+  <summary>Collapsed menu</summary>
+  <img alt="" src="./screenshot/screenshot-mobile.png">
+</details>
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+<details open>
+  <summary>Expanded menu</summary>
+  <img alt="" src="./screenshot/screenshot-mobile-active.png">
+</details>
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+#### Desktop version
+
+<details open>
+  <summary>Collapsed menu</summary>
+  <img alt="" src="./screenshot/screenshot-desktop.png">
+</details>
+
+<details open>
+  <summary>Expanded menu</summary>
+  <img alt="" src="./screenshot/screenshot-desktop-active.png">
+</details>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live site](https://alberto-rj.github.io/article-preview-component/)
+- [My solution on Frontend Mentor](https://your-solution-url.com)
 
 ## My process
 
@@ -50,22 +68,43 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS Flexbox
 - Mobile-first workflow
+- Browser-based JavaScript
 
-### What I learned (O que mais me orgulho)
+### Challenges faced
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+#### Responsivity
+
+- **Problem:** Adapting the component to different devices (mobile, tablet, desktop) was a challenge.
+
+- **Solution:** CSS Flexbox and CSS Media Queries were used to create a responsive layout. The component was tested on various devices and screen sizes to ensure a good user experience.
+
+#### Accessibility
+
+- **Problem:** The component's low accessibility for visually impaired users was an issue.
+
+- **Solution:** To ensure the component's readability for all users, colors were adjusted based on accessibility tests conducted using tools such as Accessibility Insights and Lighthouse. The alternative colors (#67788f, #ffffff) offer better contrast and make it easier to read for people with low vision.
+
+#### Performance optimization
+
+- **Problem:** Ensuring fast loading times and smooth performance was a major concern, especially with CSS and JavaScript files.
+
+- **Solution:**
+  - The CSS was minified.
+  - The `defer` attribute was used to load the script.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- **Accessibility:** Make the social media sharing menu accessible for keyboard users.
+
+- **Performance optimization:** Reduce the size of challenge images to improve page load time.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/overview/) - A comprehensive tool for performing accessibility testing on websites. It was used to check the component's color contrast.
+
+- [Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse) - A tool developed by Google that helps optimize websites, including aspects such as best practices, performance, accessibility, and SEO.
 
 ## Author
 
@@ -75,4 +114,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+A huge thank you to [Busari Akeem Tunde](https://www.frontendmentor.io/profile/Aalphakeem-Adroit) for their guidance and support throughout the documentation process. Their insights were instrumental in shaping the project's documentation.

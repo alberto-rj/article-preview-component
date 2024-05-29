@@ -1,6 +1,8 @@
 # Frontend Mentor - Article preview component solution
 
-Idioma: [🇺🇸 Inglês](README.md) | [🇧🇷 Português](README-PT.md)
+<div align="center">
+  <strong>Idioma:</strong> <a href="README.md"> 🇺🇸 Inglês </a> | <a href="README-PT.md"> 🇧🇷 Português </a>
+</div>
 
 ![Screenshot](./screenshot/screenshot-desktop.png)
 
@@ -74,15 +76,15 @@ Os usuários devem ser capazes de:
 
 #### Responsividade
 
-- **Problema:** Garantir que o componente tenha uma boa aparência e funcione bem em diferentes dispositivos (mobile, tablet, desktop) foi um desafio.
+- **Problema:** Adaptar o componente para diferentes dispositivos (mobile, tablet, desktop) foi um desafio.
 
-- **Solução:** Usou-se CSS Flexbox e CSS Media Query para criar um layout responsivo. Testado em vários dispositivos e tamanhos de tela.
+- **Solução:** O CSS Flexbox e as CSS Media Queries foram utilizados para criar um layout responsivo. O componente foi testado em diversos dispositivos e tamanhos de tela para garantir uma boa experiência do usuário.
 
 #### Acessibilidade
 
-- **Problema:** Garantir que o componente tenha um bom constraste de cores para facilitar a leitura aos usuários com problemas de visão.
+- **Problema:** A baixa acessibilidade do componente para usuários com deficiência visual era um problema.
 
-- **Solução:** Em vez de se usar as cores (`#6d7f97`, `#9eafc2`) conforme especificado na paleta de cores do design, usou-se como alternativas as cores (`#67788f`, `#ffffff`) segundo testes realizados em ferramentas como **Accessibility Insights**, **Lighthouse**.
+- **Solução:** Para garantir a legibilidade do componente para todos os usuários, as cores foram ajustadas com base em testes de acessibilidade realizados em ferramentas como *Accessibility Insights* e *Lighthouse*. As cores alternativas (`#67788f`, `#ffffff`) oferecem um melhor contraste e facilitam a leitura para pessoas com baixa visão.
 
 #### Otimização de desempenho
 
@@ -94,15 +96,15 @@ Os usuários devem ser capazes de:
 
 ### Trabalhos futuros
 
-- **Acessibilidade:** Implementar suporte de interação de teclado no menu de compartilhamento de mídia social.
+- **Acessibilidade:** Tornar o menu de compartilhamento de mídia social acessível para usuários que navegam com o teclado.
 
-- **Otimização de desempenho:** Realizar otimização das imagens do desafio.
+- **Otimização de desempenho:** Reduzir o tamanho das imagens do desafio para melhorar o tempo de carregamento da página.
 
 ### Recursos úteis
 
-- [Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/overview/) - Pode ser usada para realizar diversos tipos de testes de acessibilidade. Ela foi usada para garantir um bom constraste de cores.
+- [Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/overview/) - Uma ferramenta completa para realizar testes de acessibilidade em websites. Ela foi utilizada para verificar o contraste de cores do componente.
 
-- [Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse) - Pode ajudar a melhorar as boas práticas, performance, acessibilidade e SEO de seu website.
+- [Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse) - Uma ferramenta desenvolvida pelo Google que auxilia na otimização de websites, incluindo aspectos como boas práticas, performance, acessibilidade e SEO.
 
 ## Autor
 
@@ -112,4 +114,4 @@ Os usuários devem ser capazes de:
 
 ## Agradecimentos
 
-Muito obrigado [Fulano](#) pela óptima inpiração e por me ajudar a construir uma documentação para um projeto como este.
+Um enorme agradecimento ao [Busari Akeem Tunde](https://www.frontendmentor.io/profile/Aalphakeem-Adroit) pela orientação e apoio durante todo o processo de documentação. Suas ideias foram fundamentais para moldar a documentação do projeto.
