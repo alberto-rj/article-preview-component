@@ -1,5 +1,9 @@
 # Frontend Mentor - Article preview component solution
 
+Idioma:  [🇺🇸 Inglês](README.md)  |  [🇧🇷 Português](README-PT.md)
+
+![Screenshot](./screenshot/screenshot-desktop.png)
+
 Este é uma solução para o [desafio Article preview component no Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Os desafios do Frontend Mentor podem te ajudar a melhorar as suas habilidade de codificação e a construir projetos do mundo real.
 
 ## Índice
@@ -11,7 +15,6 @@ Este é uma solução para o [desafio Article preview component no Frontend Ment
 - [Meu processo](#meu-processo)
   - [Construído com](#construídos-com)
   - [Desafios enfrentados](#desafios-enfretados)
-  - [O que mais me orgulho (aprendizados)](#o-que-mais-me-orgulho)
   - [Trabalhos futuros](#trabalhos-futuros)
   - [Recursos úteis](#recursos-úteis)
 - [Autor](#autor)
@@ -28,19 +31,33 @@ Os usuários devem ser capazes de:
 
 ### Capturas de tela
 
-<details>
-  <summary>Versão Mobile</summary>
-  <img alt="" src="">
+#### Versão mobile
+
+<details open>
+  <summary>Menu recolhido</summary>
+  <img alt="" src="./screenshot/screenshot-mobile.png">
 </details>
 
-<details>
-  <summary>Versão Mobile</summary>
-  <img alt="" src="">
+<details open>
+  <summary>Menu expandido</summary>
+  <img alt="" src="./screenshot/screenshot-mobile-active.png">
+</details>
+
+#### Versão desktop
+
+<details open>
+  <summary>Menu recolhido</summary>
+  <img alt="" src="./screenshot/screenshot-desktop.png">
+</details>
+
+<details open>
+  <summary>Menu expandido</summary>
+  <img alt="" src="./screenshot/screenshot-desktop-active.png">
 </details>
 
 ### Links
 
-- [Site de demonstração](https://your-live-site-url.com)
+- [Site de demonstração](https://alberto-rj.github.io/article-preview-component/)
 - [Minha solução no Frontend Mentor](https://your-solution-url.com)
 
 ## Meu processo
@@ -63,38 +80,29 @@ Os usuários devem ser capazes de:
 
 #### Acessibilidade
 
-##### Contraste de cores
-
 - **Problema:** Garantir que o componente tenha um bom constraste de cores para facilitar a leitura aos usuários com problemas de visão.
 
-- **Solução:** Em vez de se usar as cores (`#6d7f97`, `#9eafc2`) conforme especificado na paleta de cores do design, usou-se como alternativas as cores (`#67788f`, `#ffffff`) segundo testes realizados em ferramentas como **Accessibility Insights for Web**, **Lighthouse** e **WAVE**.
-
-##### Padrão popup menu
-
-- **Problema:** Tornar o menu de compartilhamento acessível a todos os usuários, incluindo pessoas com deficiência, foi difícil devido à necessidade de entender e implementar o padrão popup menu.
-
-- **Solução:** Implementou-se HTML semântico, usou-se funções ARIA e rótulos. Executou-se testes de acessibilidade usando ferramentas como **Lighthouse** e **WAVE**.
+- **Solução:** Em vez de se usar as cores (`#6d7f97`, `#9eafc2`) conforme especificado na paleta de cores do design, usou-se como alternativas as cores (`#67788f`, `#ffffff`) segundo testes realizados em ferramentas como **Accessibility Insights**, **Lighthouse**.
 
 #### Otimização de desempenho
 
-- **Problema:** Garantir tempos de carregamento rápidos e desempenho suave foi uma grande preocupação, especialmente com imagens, arquivo CSS e JavaScript.
+- **Problema:** Garantir tempos de carregamento rápidos e desempenho suave foi uma grande preocupação, especialmente com arquivo CSS e JavaScript.
 
 - **Solução:**
-  - Otimizou-se imagens usando o formato WebP.
   - Minimizou-se o CSS.
   - Usou-se o atributo `defer` ao carregar o script.
 
-### O que mais me orgulho
-
 ### Trabalhos futuros
+
+- **Acessibilidade:** Implementar suporte de interação de teclado no menu de compartilhamento de mídia social.
+
+- **Otimização de desempenho:** Realizar otimização das imagens do desafio.
 
 ### Recursos úteis
 
-- [Accessibility Insights for Web]() - Pode ser usada para realizar diversos tipos de testes de acessibilidade. Ela foi usada para garantir um bom constraste de cores.
+- [Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/overview/) - Pode ser usada para realizar diversos tipos de testes de acessibilidade. Ela foi usada para garantir um bom constraste de cores.
 
-- [Lighthouse Extension]() - Esta ferramenta pode ajudar a melhorar significativamente na performance, acessibilidade, e boas práticas de um website.
-
-- [Tiny Image]() - Pode ser usada para gerar imagens no formato WebP.
+- [Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse) - Pode ajudar a melhorar as boas práticas, performance, acessibilidade e SEO de seu website.
 
 ## Autor
 
@@ -104,4 +112,4 @@ Os usuários devem ser capazes de:
 
 ## Agradecimentos
 
-Muito obrigado [Fulano](#), pela óptima inpiração e por me ajudar a construir uma documentação para um projeto como este.
+Muito obrigado [Fulano](#) pela óptima inpiração e por me ajudar a construir uma documentação para um projeto como este.
