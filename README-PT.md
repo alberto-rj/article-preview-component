@@ -6,7 +6,7 @@
 
 ![Screenshot](./screenshot/screenshot-desktop.png)
 
-Este é uma solução para o [desafio Article preview component no Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Os desafios do Frontend Mentor podem te ajudar a melhorar as suas habilidade de codificação e a construir projetos do mundo real.
+Este é uma solução para o [desafio Article preview component no Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Os desafios do Frontend Mentor podem te ajudar a melhorar as suas habilidades de codificação e a construir projetos do mundo real.
 
 ## Índice
 
