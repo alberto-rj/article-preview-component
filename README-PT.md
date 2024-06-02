@@ -3,6 +3,7 @@
 <div align="center">
   <strong>Idioma:</strong> <a href="README.md"> 🇺🇸 Inglês </a> | <a href="README-PT.md"> 🇧🇷 Português </a>
 </div>
+<br>
 
 ![Screenshot](./screenshot/screenshot-desktop.png)
 
