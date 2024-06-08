@@ -115,4 +115,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-A huge thank you to [Busari Akeem Tunde](https://www.frontendmentor.io/profile/Aalphakeem-Adroit) for their guidance and support throughout the documentation process. Their insights were instrumental in shaping the project's documentation.
+A huge thank you to [Busari Akeem Tunde](https://www.frontendmentor.io/profile/Aalphakeem-Adroit) for their guidance and support throughout the documentation process. Their insights were instrumental in shaping the project's documenta
