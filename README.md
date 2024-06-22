@@ -109,7 +109,7 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [Alberto Raúl José](https://github.com/alberto-rj)
+- GitHub - [@alberto-rj](https://github.com/alberto-rj)
 - Frontend Mentor - [@alberto-rj](https://www.frontendmentor.io/profile/alberto-rj)
 - Twitter - [@albertorauljose](https://www.twitter.com/albertorauljose)
 
